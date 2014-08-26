@@ -15,6 +15,7 @@ Might not do the right thing&trade; but heck it works(?)
     # Set environment variables and run
     export SPLUNK_URL=https://localhost:8089
     export SPLUNK_SESSION="I5i_6dCMN0JxxvUOp_bovG8Obye_6zd0HJS^Pwyti_dGWpv0L0tsdDW9VWR56cs0h055lMI2hTmdwVvQNkIePVDyjvQ1sAardhKPXu6smF"
+    
     stailf "source=\"/var/log/syslog\" *"
 
 
